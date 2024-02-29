@@ -9,4 +9,3 @@ Tämä on yksinkertainen komentorivisovellus, jonka avulla voit lajitella tiedos
 - Kansiot luodaan vain jos löydetään tiedostoja
 - Peruutus- ja palautustoiminto
 - Kielen vaihto
-- Esikatselu löydetyistä tiedostoista
