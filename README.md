@@ -6,7 +6,7 @@ Tämä on yksinkertainen komentorivisovellus, jonka avulla voit lajitella tiedos
 
 ## TODO 
 - Alihakemiston käsittely ei toimi kunnolla
-- Kansiot luodaan jos löydetty tiedosto
-- Peruutus- ja Palautustoiminto
+- Kansiot luodaan vain jos löydetään tiedostoja
+- Peruutus- ja palautustoiminto
 - Kielen vaihto
-- Esikatselu Löydetyistä Tiedostoista
+- Esikatselu löydetyistä tiedostoista
