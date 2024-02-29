@@ -5,7 +5,7 @@ Tämä on yksinkertainen komentorivisovellus, jonka avulla voit lajitella tiedos
 ## Käyttöohjeet
 
 1. **Asennus**: Voit ladata sovelluksen GitHubista ja asentaa sen omalle tietokoneellesi seuraamalla näitä ohjeita:
-    - Kloonaa GitHub-repositorio omalle tietokoneellesi: `git clone https://github.com/kayttaja/tiedostojen-lajittelusovellus.git`
+    - Kloonaa GitHub-repositorio omalle tietokoneellesi: `git clone https://github.com/KimLof/tiedostosovellus.git`
     - Siirry sovelluskansion sisälle: `cd tiedostojen-lajittelusovellus`
     - Käännä sovellus: `cargo build --release`
     - Sovelluksen suorittaminen: `cargo run --release`
@@ -16,8 +16,8 @@ Tämä on yksinkertainen komentorivisovellus, jonka avulla voit lajitella tiedos
 
 3. **Käyttö**:
     - Anna ensin polku hakemistoon, jonka haluat lajitella.
-    - Valitse tiedostotyyppi, jonka haluat lajitella. Voit valita yhden tai useamman vaihtoehdon.
-    - Valitse, haluatko käsitellä alihakemistoja.
+    - Valitse tiedostotyyppi, jonka haluat lajitella. Voit valita yhden tai kaikki.
+    - Valitse, haluatko käsitellä alihakemistoja. ###EI toimi toivotulla tavalla vielä###
     - Voit valita, haluatko nähdä esikatselun löydetyistä tiedostoista.
     - Paina "Siirrä Tiedostot" -painiketta aloittaaksesi lajittelun.
 
@@ -33,10 +33,8 @@ Tämä on yksinkertainen komentorivisovellus, jonka avulla voit lajitella tiedos
 
 ## TODO 
 - Alihakemiston käsittely ei toimi kunnolla.
-- Kansiot luodaan vain, jos löydetään tiedostoja.
 - Peruutus- ja palautustoiminto.
 - Kielen vaihto.
-- Esikatselu löydetyistä tiedostoista.
 
 ### HUOM: SOVELLUS EI OLE VALMIS VIELÄ ###
 
