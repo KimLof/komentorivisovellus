@@ -1,6 +1,6 @@
 # Tiedostojen Lajittelusovellus
 
-Tämä on yksinkertainen komentorivisovellus, jonka avulla voit lajitella tiedostoja eri kansioihin niiden tiedostotyypin perusteella. Sovellus tukee kuvien, äänitiedostojen, videoiden, asiakirjojen ja arkistojen lajittelua.
+Tämä on yksinkertainen tiedostojen lajittelusovellus, jonka avulla voit lajitella tiedostoja eri kansioihin niiden tiedostotyypin perusteella. Sovellus tukee kuvien, äänitiedostojen, videoiden, asiakirjojen ja arkistojen lajittelua.
 
 ## Käyttöohjeet
 
@@ -8,7 +8,6 @@ Tämä on yksinkertainen komentorivisovellus, jonka avulla voit lajitella tiedos
     - Kloonaa GitHub-repositorio omalle tietokoneellesi: `git clone https://github.com/KimLof/tiedostosovellus.git`
     - Siirry sovelluskansion sisälle: `cd tiedostojen-lajittelusovellus`
     - Käännä sovellus: `cargo build --release`
-    - Sovelluksen suorittaminen: `cargo run --release`
 
 2. **Käynnistäminen**: Kun sovellus on asennettu, voit käynnistää sen komentoriviltä seuraavasti:
     - Avaa komentorivi ja siirry sovelluskansion sisälle.
