@@ -16,7 +16,7 @@ Tämä on yksinkertainen tiedostojen lajittelusovellus, jonka avulla voit lajite
 3. **Käyttö**:
     - Anna ensin polku hakemistoon, jonka haluat lajitella.
     - Valitse tiedostotyyppi, jonka haluat lajitella. Voit valita yhden tai kaikki.
-    - Valitse, haluatko käsitellä alihakemistoja. ###EI toimi toivotulla tavalla vielä###
+    - Valitse, haluatko käsitellä alihakemistoja. `EI toimi toivotulla tavalla vielä`
     - Voit valita, haluatko nähdä esikatselun löydetyistä tiedostoista.
     - Paina "Siirrä Tiedostot" -painiketta aloittaaksesi lajittelun.
 
