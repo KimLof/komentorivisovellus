@@ -1,40 +1,40 @@
-# Tiedostojen Lajittelusovellus
+# File Sorting Application
 
-Tämä on yksinkertainen tiedostojen lajittelusovellus, jonka avulla voit lajitella tiedostoja eri kansioihin niiden tiedostotyypin perusteella. Sovellus tukee kuvien, äänitiedostojen, videoiden, asiakirjojen ja arkistojen lajittelua.
+This is a simple file sorting application that allows you to organize files into different folders based on their file type. The application supports sorting of images, audio files, videos, documents, and archives.
 
-## Käyttöohjeet
+## User Guide
 
-1. **Asennus**: Voit ladata sovelluksen GitHubista ja asentaa sen omalle tietokoneellesi seuraamalla näitä ohjeita:
-    - Kloonaa GitHub-repositorio omalle tietokoneellesi: `git clone https://github.com/KimLof/tiedostosovellus.git`
-    - Siirry sovelluskansion sisälle: `cd tiedostojen-lajittelusovellus`
-    - Käännä sovellus: `cargo build --release`
+1. **Installation**: You can download the application from GitHub and install it on your computer by following these instructions:
+    - Clone the GitHub repository to your computer: `git clone https://github.com/KimLof/file-sorting-app.git`
+    - Navigate into the application directory: `cd file-sorting-app`
+    - Build the application: `cargo build --release`
 
-2. **Käynnistäminen**: Kun sovellus on asennettu, voit käynnistää sen komentoriviltä seuraavasti:
-    - Avaa komentorivi ja siirry sovelluskansion sisälle.
-    - Käynnistä sovellus komennolla: `cargo run --release`
+2. **Launching**: Once the application is installed, you can launch it from the command line as follows:
+    - Open a command prompt and navigate into the application directory.
+    - Start the application with the command: `cargo run --release`
 
-3. **Käyttö**:
-    - Anna ensin polku hakemistoon, jonka haluat lajitella.
-    - Valitse tiedostotyyppi, jonka haluat lajitella. Voit valita yhden tai kaikki.
-    - Valitse, haluatko käsitellä alihakemistoja. `EI toimi toivotulla tavalla vielä`
-    - Voit valita, haluatko nähdä esikatselun löydetyistä tiedostoista.
-    - Paina "Siirrä Tiedostot" -painiketta aloittaaksesi lajittelun.
+3. **Usage**:
+    - First, provide the path to the directory you want to sort.
+    - Select the file type(s) you want to sort. You can choose one or all.
+    - Choose whether to process subdirectories. `Subdirectory processing not working as intended yet`
+    - Optionally, you can choose to preview the found files.
+    - Press the "Move Files" button to start the sorting process.
 
-4. **Virheenkäsittely**: Jos sovellus kohtaa virheitä, se ilmoittaa niistä komentorivillä ja antaa ohjeita ongelman korjaamiseksi.
+4. **Error Handling**: If the application encounters errors, it will display them on the command line and provide instructions for resolving the issue.
 
-5. **Palautteen Antaminen**: Jos kohtaat ongelmia tai sinulla on ehdotuksia sovelluksen parantamiseksi, voit jakaa palautteesi GitHubissa avaamalla uuden [ongelman](https://github.com/KimLof/tiedostosovellus/issues) tai tekemällä lähettämällä sähköpostia osoitteeseen kim@kimcode.fi.
+5. **Providing Feedback**: If you encounter any issues or have suggestions for improving the application, you can share your feedback on GitHub by opening a new [issue](https://github.com/KimLof/file-sorting-app/issues) or by sending an email to kim@kimcode.fi.
 
-## Toiminnallisuudet
-- Mahdollisuus lajitella tiedostoja eri kansioihin niiden tiedostotyypin perusteella.
-- Tuki kuvien, äänitiedostojen, videoiden, asiakirjojen ja arkistojen lajittelulle.
-- Käsittele alihakemistoja tarvittaessa.
-- Näytä esikatselu löydetyistä tiedostoista ennen lajittelun aloittamista.
+## Features
+- Ability to sort files into different folders based on their file type.
+- Support for sorting images, audio files, videos, documents, and archives.
+- Process subdirectories if needed.
+- Preview found files before starting the sorting process.
 
-## TODO 
-- Alihakemiston käsittely ei toimi kunnolla.
-- Peruutus- ja palautustoiminto.
-- Kielen vaihto.
+## TODO
+- Subdirectory processing not working properly.
+- Undo and redo functionality.
+- Language switching.
 
-### HUOM: SOVELLUS EI OLE VALMIS VIELÄ ###
+### NOTE: THE APPLICATION IS NOT YET FINISHED ###
 
-Tätä README.md-tiedostoa päivitetään jatkuvasti, kun sovellusta kehitetään edelleen. Lisää toiminnallisuuksia ja parannuksia on tulossa tulevissa versioissa. Jos sinulla on kysyttävää tai tarvitset lisätietoja, älä epäröi ottaa yhteyttä!
+This README.md file will be continuously updated as the application is further developed. Additional features and improvements are coming in future versions. If you have any questions or need more information, don't hesitate to reach out!
